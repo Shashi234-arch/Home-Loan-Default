@@ -1,4 +1,4 @@
-- Loan Default Prediction & Risk Segmentation
+• Loan Default Prediction & Risk Segmentation
 ---
   
 - Project Overview  
@@ -6,13 +6,14 @@
 
 This project aims to build a Machine Learning model to predict whether a customer is likely to default on a loan. It helps financial institutions make data-driven loan approval decisions and reduce credit risk.
 
-- Objective  
+• Objective 
+---
  -Identify customers eligible for loan approval  
  -Detect potential defaulters  
  -Perform customer risk segmentation  
  -Support business decision-making in lending
 
-- Dataset
+• Dataset
 ---
   
 -The project uses multiple datasets:  
@@ -25,7 +26,7 @@ This project aims to build a Machine Learning model to predict whether a custome
   -installments_payments.csv – Repayment history
  The dataset contains anonymized customer and vehicle-related features. Dataset is not included due to size restrictions. Download Dataset:https://drive.usercontent.google.com/download?id=1dAtDBEVtzaVmOYuBCwDnc0QEyIZkHDaj
   
-- Data Preprocessing
+• Data Preprocessing
 ---
 
   -Merged multiple datasets using keys (SK_ID_CURR, SK_ID_BUREAU)  
@@ -36,7 +37,7 @@ This project aims to build a Machine Learning model to predict whether a custome
   -Encoded categorical variables  
   -Cleaned and prepared dataset for modeling
 
-- Exploratory Data Analysis
+• Exploratory Data Analysis
 ---
   
   -Dataset is imbalanced (~8% defaulters)  
@@ -47,7 +48,7 @@ This project aims to build a Machine Learning model to predict whether a custome
    -External credit scores (EXT_SOURCE)  
    -Payment behavior
 
-- Models Used  
+• Models Used  
 ---
 
   Logistic Regression  
@@ -55,7 +56,7 @@ This project aims to build a Machine Learning model to predict whether a custome
   XGBoost  
   LightGBM (Best Model)
 
-- Model Performance  
+• Model Performance  
 ---
 
  Model	                        ROC-AUC  
@@ -64,14 +65,14 @@ This project aims to build a Machine Learning model to predict whether a custome
  XGBoost	                 0.76  
  LightGBM	                 0.76
 
-- Threshold Optimization 
+• Threshold Optimization 
 ---
  
   Used Youden’s J Statistic  
   Best Threshold ≈ 0.498
   
 
-- Evaluation Metrics 
+• Evaluation Metrics 
 ---
  
   Accuracy: 73%  
@@ -80,7 +81,7 @@ This project aims to build a Machine Learning model to predict whether a custome
   Precision (Default): 18%
 
 
-- Key Insights  
+• Key Insights  
 ---
 
   Model successfully detects majority of defaulters  
@@ -89,7 +90,7 @@ This project aims to build a Machine Learning model to predict whether a custome
   Financial stability strongly impacts loan approval
   
   
-- Customer Risk Segmentation 
+• Customer Risk Segmentation 
 ---
  
    Segment	Description  
@@ -97,7 +98,7 @@ This project aims to build a Machine Learning model to predict whether a custome
    Medium Risk	Moderate → Manual review  
    High Risk	Risky → Reject
 
-- Business Recommendations 
+• Business Recommendations 
 ---
    
    Approve low-risk customers  
@@ -106,7 +107,7 @@ This project aims to build a Machine Learning model to predict whether a custome
    Use model for automated credit decisioning
 
 
-- Business Impact 
+• Business Impact 
 ---
  
   Reduces financial losses    
@@ -114,9 +115,8 @@ This project aims to build a Machine Learning model to predict whether a custome
   Enables risk-based decision making  
 
 
-- Technologies Used 
----
- 
+• Technologies Used 
+--- 
   Python  
   Pandas, NumPy  
   Scikit-learn  
@@ -124,9 +124,8 @@ This project aims to build a Machine Learning model to predict whether a custome
   Matplotlib, Seaborn
 
 
-- Project Structure 
+• Project Structure 
 ---
- 
   Loan-Default-Prediction/  
   ├── data  
   ├── notebooks  
@@ -136,8 +135,7 @@ This project aims to build a Machine Learning model to predict whether a custome
   ├── threshold.pkl  
   ├── README.md  
 
-- Author  
+• Author  
 --- 
-
   Shashikant Madhukar Sonavane  
   Data Science Enthusiast
