@@ -1,7 +1,7 @@
 • Loan Default Prediction & Risk Segmentation
 ---
   
-- Project Overview  
+• Project Overview  
 ---
 
 This project aims to build a Machine Learning model to predict whether a customer is likely to default on a loan. It helps financial institutions make data-driven loan approval decisions and reduce credit risk.
