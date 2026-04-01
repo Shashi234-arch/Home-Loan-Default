@@ -24,7 +24,7 @@ This project aims to build a Machine Learning model to predict whether a custome
   -POS_CASH_balance.csv – POS/Cash loan history  
   -credit_card_balance.csv – Credit card usage  
   -installments_payments.csv – Repayment history
- The dataset contains anonymized customer and vehicle-related features. Dataset is not included due to size restrictions. Download Dataset :- https://drive.usercontent.google.com/download?id=1Rbpr0cew1P-DF8kEj8SaRdYSJM1k1-YY
+ The dataset contains anonymized customer and vehicle-related features. Dataset is not included due to size restrictions. Dataset
   
 • Data Preprocessing
 ---
