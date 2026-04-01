@@ -126,7 +126,7 @@ This project aims to build a Machine Learning model to predict whether a custome
 
 • Project Structure 
 ---
-  Loan-Default-Prediction/  
+  Loan-Default-Prediction
   ├── data  
   ├── notebooks  
   ├── model  
